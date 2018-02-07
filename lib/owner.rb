@@ -10,6 +10,9 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
+    @fishes = []
+    @dogs = []
+    @cats = []
   end
 
   def self.all
