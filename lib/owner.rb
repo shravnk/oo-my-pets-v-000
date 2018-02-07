@@ -59,4 +59,6 @@ class Owner
     @pets.each do |species_name , species_array|
       species_array.each{|pet| pet.mood = "nervous"}
     end
+    self.class.reset_all
+  end
 end
