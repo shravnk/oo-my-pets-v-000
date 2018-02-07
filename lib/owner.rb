@@ -10,7 +10,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    
+
   end
 
   def self.all
