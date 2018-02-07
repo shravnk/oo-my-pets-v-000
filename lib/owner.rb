@@ -1,3 +1,10 @@
 class Owner
-  # code goes here
+  @@all
+  @@all = []
+
+
+  def self.count
+    @@all.length
+  end
+
 end
