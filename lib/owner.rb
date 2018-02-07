@@ -67,5 +67,5 @@ class Owner
     c = @pets[:cats].length
     d = @dogs[:dogs].length
   end
-    
+
 end
