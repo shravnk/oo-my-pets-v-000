@@ -4,11 +4,12 @@ class Owner
 
   attr_reader :species
   attr_accessor :name, :fishes, :cats, :dogs
-  
+
 
   def initialize(name)
-    @species = name
+    @name = name
     @@all << self
+    @species = "human"
   end
 
   def self.all
