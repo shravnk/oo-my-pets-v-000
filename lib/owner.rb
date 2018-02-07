@@ -61,4 +61,11 @@ class Owner
     end
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
+
+  def list_pets
+    f = @pets[:fishes].length
+    c = @pets[:cats].length
+    d = @dogs[:dogs].length
+  end
+    
 end
